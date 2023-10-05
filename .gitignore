@@ -1,0 +1,25 @@
+# Carpeta de salida de Maven
+target/
+
+# Archivos de configuración específicos de Eclipse (ignorar si no utilizas Eclipse)
+.settings/
+.classpath
+.project
+
+# Carpeta específica de Spring Tools (ignorar si no utilizas Spring Tools)
+.springBeans
+
+# Carpeta de archivos generados por IDE (ignorar si no utilizas Eclipse o IntelliJ, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Carpeta de archivos de configuración de bases de datos locales (ignorar si contiene contraseñas u otros datos confidenciales)
+src/main/resources/application.properties
+
+# Archivos de registro (ignorar si no deseas rastrear archivos de registro en el repositorio)
+*.log
+
+# Carpeta temporal (ignorar si se genera automáticamente y no se debe rastrear)
+tmp/ 
